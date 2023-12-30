@@ -1,0 +1,16 @@
+
+--HOW TO CRATE READ ONLY FIELD IN ORACLE APEX-
+STEP 1 .--ADVANCED PROPERTIES 
+    Custom Attributes : readonly="readonly" ;
+
+STEP 2 .--COPY PASTE INLINE
+
+#P279_MMIN {
+  background-color: #cf6;
+}
+
+--ALTERNATIVE 
+
+STEP 1: GO PAGE Execute when Page Loads PROPERTIES
+ 
+ document.getElementById("P279_MMIN").readOnly = true;
