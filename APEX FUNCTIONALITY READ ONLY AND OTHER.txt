@@ -13,4 +13,4 @@ STEP 2 .--COPY PASTE INLINE
 
 STEP 1: GO PAGE Execute when Page Loads PROPERTIES
  
- document.getElementById("P279_MMIN").readOnly = true;
+ document.getElementById("P279_MMIN").readOnly = true; 
